@@ -9,7 +9,7 @@ var app = express()
 app.get('/*', function (req, res) {
    
  
-  res.send("Order V3 Recieved. Processing started...\n" )
+  res.send("Order V3. Recieved. Processing started...\n" )
 })
 
 //Launch listening server on port 8090
