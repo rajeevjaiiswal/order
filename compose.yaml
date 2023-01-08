@@ -1,0 +1,8 @@
+x-aws-vpc: "vpc-0e56fd56069862176"
+services:
+  web:
+    image: rajeevjaiiswal/order:latest
+    build:
+      context: .
+    ports:
+      - "8090:8090"
